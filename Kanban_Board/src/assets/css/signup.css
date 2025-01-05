@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7eb3 0%, #ff758c 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for Signup Card */
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Glass Effect Card */
+  .signup-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px 30px;
+    width: 400px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Input Fields and Labels */
+  form div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #fbfafacc;
+  }
+  
+  form input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  form input:focus {
+    outline: none;
+    border: 1px solid #ff758c;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Submit Button */
+  form button {
+    padding: 10px;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  form button:hover {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  }
+  
+  /* Error Messages */
+  .error {
+    color: #ff6b6b;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  

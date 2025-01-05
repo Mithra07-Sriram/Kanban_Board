@@ -6,6 +6,8 @@ import Login from './Components/FunctionalComponent/Login'
 import Navbar from './Components/FunctionalComponent/Navbar'
 import "./assets/css/navbar.css";
 import './assets/css/home.css';
+import './assets/css/login.css';
+import './assets/css/signup.css';
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 function App() {
 
