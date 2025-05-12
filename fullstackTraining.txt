@@ -1,0 +1,55 @@
+git init
+in cmd terminal- dir /a
+git add index.html
+git config --list (enter q)
+git commit -m "Adding index.html"
+git log
+git config user.name
+git config --global  user.name "name" (for remaming the name)
+git config --global user.email 
+git config user.email
+git config user.email "name"(for renaming)
+git remote add origin https/ssh    
+(for clearing - clear or cls)
+git branch
+git status
+git push -u origin main/master (to check if it is pushed:in the repo->click main->view all branches)
+
+To create secure:
+ssh-keygen
+no pass
+
+
+to deploy in website by git:
+in the project->settings->pages->choose main->domain name(any name)->save->link will be display
+
+to see the difference if any modification made:
+git diff
+
+to see the changes in website:
+git add .
+git commit -m "Modified index.html"
+git push
+
+
+
+
+conditional/control/decision making statements
+
+to run in vs code directly-code runner(extensions)
+
+git branch mynew --to change the branch
+git checkout mynew--addnew file in this 
+dir
+the file added in mynew alone visible 
+to merge the main and mynew go to main by -->git checkout main
+
+git merge
+
+
+npm create vite@ latest --
+npm install
+
+npm init -y
+npm i express
+npm i nodemon
